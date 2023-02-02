@@ -1,0 +1,98 @@
+<!DOCTYPE html> <!-- делать быстрый коммент шифт+а+альт -->
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- адаптив+отсутствие масштабирования. -->
+    <title>Кружки мишлен</title> <!-- Название -->
+    <link rel="stylesheet" href="source/css/style.css"> <!-- Подключение стилей -->
+    <link rel="stylesheet" href="source/fonts/fontello-cf5548bc/css/fontello.css"> <!-- Подключение стилей -->
+<style></style>
+</head>
+
+<body>
+    <!-- Старт_контента -->
+    <div class="wrapper">
+        <div class="generator">
+            <div class="generator__container container">
+                <div class="generator__body">
+                    <div class="generator__title">
+                        <h1 >text-shadow generator</h1>
+                    </div>
+                    <div class="generator__items items">
+
+
+
+                        <div class="generator__item item">
+                            <div class="item__body">
+                                <div class="item__title">
+                                    <h2>Найстройки:</h2>
+                                </div>
+                                <div class="generator__block">
+                                    <p>Размер шрифта</p>
+                                    <input class="generator__fz range" step="1" type="range" value="20" min="10" max="30">
+
+                                </div>
+                                <div class="generator__block">
+                                    <p>Смещение по оси Х</p>
+                                    <input class="generator__osX range" step="0.01" min="-1" max="1" type="range" value="0">
+
+                                </div>
+                                <div class="generator__block">
+                                    <p>Смещение по оси Y</p>
+                                    <input class="generator__osY range" step="0.01" min="-1" max="1" type="range" value="0">
+
+                                </div>
+                                <div class="generator__block">
+                                    <p>Размытие</p>
+                                    <input class="generator__fade range" min="0" step="0.01" max="1" type="range" value="0">
+
+                                </div>
+                                
+                            </div>
+                            </div>
+                        <div class="generator__item item">
+                                <div class="item__body">
+                                <div class="item__title">
+                                    <h2>Цвет:</h2>
+                                </div>
+                                <input class="color" type="color" name="color" id="">
+                                <div class="generator__block">
+
+                                    <p>Прозрачность </p>
+                                    <input class="generator__opasity range" min="0" step="0.01" max="1.00" type="range" value="1">
+
+                                </div>
+                            </div>
+                            </div>
+                        <div class="generator__item item">
+                                <div class="item__body">
+
+                                    <div class="item__title">
+                                        <h2>Результат:</h2>
+                                    </div>
+                                        <div class="generator__block generator__block_textarea">
+                                            <p>Цвет в HEX</p>
+                                            <textarea class="textar1" name="textar1" id=""></textarea>
+                                        </div>
+                                        <div class="generator__block generator__block_textarea">
+                                            <p>Цвет в RGBA</p>
+                                            <textarea class="textar2"  name="textar2" id=""></textarea>
+                                        </div>
+                                </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="green-block">
+
+                </div>
+            </div>
+            <script src="source/JS/jquery-3.6.3.min.js"></script>
+            <script src="source/JS/script.js"></script><!-- в конце важно! -->
+</body><!-- Финиш_контента -->
+
+</html>
