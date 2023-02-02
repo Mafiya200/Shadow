@@ -71,7 +71,10 @@ overflow: hidden;
     display: flex;
     justify-content: center;
 
+    @media (max-width:20em) {
+        min-height: 130px;
 
+    }
 }
 .generator__title h1{
     align-self: center;

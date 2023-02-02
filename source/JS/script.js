@@ -98,14 +98,14 @@ color = $(this).val();
                     });
 
                     $(`.textar1`).text(
-                        `background-color:${color};
-                        opasity:${opasity};
-                        font-size:${fz}px;
+`background-color:${color};
+opasity:${opasity};
+font-size:${fz}px;
                         `); 
                                 $(`.textar2`).text(
-                        `text-shadow: ${(Math.ceil(fz*osX*100))/100}px ${(Math.ceil(fz*osY*100))/100}px ${(Math.ceil(fz*fade*100))/100}px ${hex2rgb(color)};
-                        font-size:${fz}px;
-                        `);
+`text-shadow: ${(Math.ceil(fz*osX*100))/100}px ${(Math.ceil(fz*osY*100))/100}px ${(Math.ceil(fz*fade*100))/100}px ${hex2rgb(color)};
+font-size:${fz}px;
+`);
 
 });
 

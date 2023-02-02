@@ -147,6 +147,11 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
 }
+@media (max-width: 20em) {
+  .generator__title {
+    min-height: 130px;
+  }
+}
 
 .generator__title h1 {
   -ms-flex-item-align: center;
