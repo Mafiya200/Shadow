@@ -102,7 +102,7 @@ padding: 0 0.5rem;
     }
 ////
 .item__title {
-    background-color: rgb(28, 134, 255);
+    background-color: rgb(255, 194, 28);
     margin-bottom: 1.5rem;
 }
 
@@ -167,17 +167,17 @@ border-radius: 0.25rem;
   width: 1.4rem;
 border-radius: 100%;
   cursor: pointer;
-  background-color: rgb(28, 134, 255);  
+  background-color: rgb(255, 194, 28);  
   
 }
 &::-webkit-slider-thumb:active{
-    background-color: rgb(27, 101, 185);  
+    background-color: rgb(255, 194, 28);  
 
     
 }
 &:active::-webkit-slider-thumb{
     
-        background-color: rgb(28, 134, 255);  
+        background-color: rgb(255, 194, 28);  
 outline: 1.5px solid rgba(128, 128, 128, 0.479);
 border: 3px solid rgba(255, 255, 255, 0.303); 
 
